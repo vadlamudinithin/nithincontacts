@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_jaspersolutions_contacts_domain_Contact" object="${contact}" path="/contacts" z="lPEZ4hYnOdOSL1pziOdC9rv5ZuI=">
+        <field:display field="firstName" id="s_com_jaspersolutions_contacts_domain_Contact_firstName" object="${contact}" z="uP1bxuQpFAbSyUAJVR2ECGNCegs="/>
+        <field:display field="lastName" id="s_com_jaspersolutions_contacts_domain_Contact_lastName" object="${contact}" z="kmNN/uraE8p+V3VnmZlDw+c88fM="/>
+        <field:display field="address" id="s_com_jaspersolutions_contacts_domain_Contact_address" object="${contact}" z="n4ofUMiy3s9/kSPlAK+Ogyj/7rs="/>
+        <field:display field="contactType" id="s_com_jaspersolutions_contacts_domain_Contact_contactType" object="${contact}" z="sOnvxjw5J4u8tERL2K0EXfPQibs="/>
+        <field:display field="phone" id="s_com_jaspersolutions_contacts_domain_Contact_phone" object="${contact}" z="/hKZsAcIlZ8sKmvDPcKNke4z1ws="/>
+        <img height="256px" src="${contact.id}/image"/>
+        <field:display field="image" id="s_com_jaspersolutions_contacts_domain_Contact_image" object="${contact}" z="user-managed" render="false"/>
+        <field:display field="contentType" id="s_com_jaspersolutions_contacts_domain_Contact_contentType" object="${contact}" z="user-managed" render="false"/>
+    </page:show>
+</div>

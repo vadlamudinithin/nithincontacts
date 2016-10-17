@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_jaspersolutions_contacts_domain_Contact" modelAttribute="contact" path="/contacts" versionField="Version" z="7zkRV+ZactvG/z3WcHOQjz/KkDA=">
+        <field:input field="firstName" id="c_com_jaspersolutions_contacts_domain_Contact_firstName" min="3" required="true" z="+gTuyPS2suASOZ2nzNM2ejNDafU="/>
+        <field:input field="lastName" id="c_com_jaspersolutions_contacts_domain_Contact_lastName" min="3" required="true" z="NWFfwD0p3VB/Vv9iXomhK7OB4jo="/>
+        <field:input field="address" id="c_com_jaspersolutions_contacts_domain_Contact_address" min="3" required="true" z="QjC1gTz6j1F8/rMnSVpgo7BL6mY="/>
+        <field:select field="contactType" id="c_com_jaspersolutions_contacts_domain_Contact_contactType" items="${contacttypes}" path="contacttypes" z="zNDZ8+AEAylG8UJrNeocqxWoAas="/>
+        <field:input field="phone" id="c_com_jaspersolutions_contacts_domain_Contact_phone" max="10" min="10" required="true" z="GrpkySP8npRKnjNI8rVSs05zDi0="/>
+        <field:input field="image" id="c_com_jaspersolutions_contacts_domain_Contact_image" z="+B3PciJRSmnMjgVwlI7w8Js9k6s="/>
+        <field:input field="contentType" id="c_com_jaspersolutions_contacts_domain_Contact_contentType" z="eXp9oJ4gg5aNBQ88Ji4kxVHVu7A="/>
+    </form:update>
+</div>
